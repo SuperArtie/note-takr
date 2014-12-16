@@ -87,7 +87,7 @@ describe('Note', function(){
     it('should count notes from a user', function(done){
       Note.count({id:1}, function(err, results){
         expect(err).to.be.null;
-        expect(results).to.equal('1');
+        expect(results).to.equal('2');
         done();
       });
     });

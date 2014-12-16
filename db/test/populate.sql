@@ -5,3 +5,5 @@ insert into users (username,password,avatar,token) values ('a3', 'b', 'c', 'd');
 delete from users;
 
 insert into users (id,username,password,avatar,token) values (1,'bob','$2a$08$mrZQOHperHfwQrc1au5CIecSwA6sy1VceDQIEu7SrzKA/qcXcMsoG', 'a.png', 'tok');
+
+insert into notes (id,title,body,user_id) values (1,'title for note','hey hey hey got no place to stay',1);
