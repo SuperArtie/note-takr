@@ -11,14 +11,14 @@ script:
   - npm run syntax
   - npm test
 before_script:
-  - psql -c 'create database evernode_test;' -U postgres
-  - cd test/scripts; ./create-db.sh evernode_test; cd ../..;
+  - psql -c 'create database evernodetest;' -U postgres
+  - cd test/scripts; ./create-db.sh evernodetest; cd ../..;
 after_script:
   - npm run coveralls
 env:
   global:
-    - DATABASE_URL=postgres://postgres@localhost/evernode_test
-    - AWS_BUCKET=chyld-evernode-test
+    - DATABASE_URL=postgres://postgres@localhost/evernodetest
+    - AWS_BUCKET=nv-note-bucket-test
     # AWS_SECRET_ACCESS_KEY
     - secure: "GwK1w6C9fKAHS9Op77UIt6UlZbwh6iVtctjlKiGdQAJ5GoGYpImo6jRua0E8aAZbepQdYzI/QBEkpQV0LdvUPAHwcFUds0ootFN2LiAKE/0jboFtFJQyEE0/OFE4hiCIN8KZ+Gho9D8mA5XdgaLqlvZirW7AtuFdqESKeJUJpnQ="
     # AWS_ACCESS_KEY_ID
