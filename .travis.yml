@@ -20,6 +20,6 @@ env:
     - DATABASE_URL=postgres://postgres@localhost/evernodetest
     - AWS_BUCKET=nv-note-bucket-test
     # AWS_SECRET_ACCESS_KEY
-    - secure: "GwK1w6C9fKAHS9Op77UIt6UlZbwh6iVtctjlKiGdQAJ5GoGYpImo6jRua0E8aAZbepQdYzI/QBEkpQV0LdvUPAHwcFUds0ootFN2LiAKE/0jboFtFJQyEE0/OFE4hiCIN8KZ+Gho9D8mA5XdgaLqlvZirW7AtuFdqESKeJUJpnQ="
+    - secure: "j/qF+xz+M9/CdT3vBXwfacFm2lGH17hUT/OCYaNIugfRS0YvWw86SdVL+GixnoLJcdnkykYPYBsL//Ort24rpL7pcAgSoiiwc7btZsq72WznGT+Q8bdagoPb8gdFeCb7LSzOHdGU7+jnle6aWn8Zj5VvtuPZL5vBaJry+c5ojjo="
     # AWS_ACCESS_KEY_ID
-    - secure: "l6dI5STwfxIxsqKLPzn+HYdHc9zMKYangi3USD8z9chvmiaYOrajeUglZP1teN3kS8DD6+tJodNIYckHv2YVYwai0DPrZM02hwKLSFuXG5YcXXb3Ly2mbrR364MacgtV17V/BSx7YTYhqk8JSEk0Yr4OcnNkux83h6TWzDL7tMw="
+    - secure: "PFpmZ5VYLTKzOVOXXLZ6MHwFasrnOXGnGGfZLIBvXe3MglXtRtjDLDUjGpLMUnnNhXkbwbQhNHZBCoFBvwuFQY/RrWYWc++gvViw5UIl1C2WMjzg313bPWZy1vUQ0cXzENOVRadXkzQUnHNy/sq9T9ApZDRqUrSwDBRcKgu8MMI="
